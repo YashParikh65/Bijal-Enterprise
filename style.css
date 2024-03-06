@@ -30,7 +30,7 @@ html, body {
     background-color: rgba(2, 6, 46, 0.747);
     border-radius: 50%;
     position: fixed;
-    z-index: 9;
+    z-index: 8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,64 +49,12 @@ html, body {
     background-size: cover;
 }
 
-#bubbles img{
-    width: 50px;
-    height: 50px;
-    animation: bubble 7s linear infinite;
-}
-#bubbles{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: -50px;
-}
-@keyframes bubble{
-    0%{
-        transform: translateY(0);
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-80VH);
-        opacity: 0;
-    }
-}
-
-#bubbles img:nth-child(1){
-    animation-delay: 2s;
-}
-#bubbles img:nth-child(2){
-    animation-delay: 1s;
-}
-#bubbles img:nth-child(3){
-    animation-delay: 3s;
-}
-#bubbles img:nth-child(4){
-    animation-delay: 4.5s;
-}
-#bubbles img:nth-child(5){
-    animation-delay: 3s;
-}
-#bubbles img:nth-child(6){
-    animation-delay: 6s;
-}
-#bubbles img:nth-child(7){
-    animation-delay: 7s;
-}
-
 #page1-content{
     height: 100%;
     width: 100%;
     /*background-color: rgb(0, 0, 0);*/
     position: relative;
-    z-index: 10;
+    z-index: 11;
     color: #fff;
     display: flex;
     flex-direction: column;
